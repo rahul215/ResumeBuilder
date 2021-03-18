@@ -3,7 +3,7 @@
     padding: 0;
 }
 .logo{
-    width: 15%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,9 +73,9 @@ nav li a:hover{
 }
 .secondhalf img{
     width: 70%;
-    padding: 1px 0px;
+    padding: 4px 0px;
     border: 1px solid white;
-    border-radius: 150px;
+    border-radius: 200px;
     display: block;
     margin: auto;
 }
