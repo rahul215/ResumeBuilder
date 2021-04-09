@@ -113,6 +113,9 @@ nav li a:hover{
     max-width: 80%;
     margin: auto;
 }
+.secLeft{
+    flex-direction: row-reverse;
+}
 .paras{
     padding: 0px 2px;
 }
