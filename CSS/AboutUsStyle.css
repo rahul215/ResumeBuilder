@@ -21,6 +21,16 @@
     width: 160px;
     height: 3px;
     background: turquoise;
+    margin-bottom: 40px;   
+}
+.ps{
     margin-bottom: 40px;
-    
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height:160px;
+    overflow: hidden;
+    border-radius: 50%;
 }
