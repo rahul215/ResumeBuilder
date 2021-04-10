@@ -34,3 +34,6 @@
     overflow: hidden;
     border-radius: 50%;
 }
+.ps a img{
+    width: 100%;
+}
