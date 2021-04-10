@@ -37,4 +37,8 @@
 .ps a img{
     width: 100%;
     filter: grayscale(100%);
+    transition: 0.4s;
+}
+.ps a:hover > img{
+    filter: none;
 }
