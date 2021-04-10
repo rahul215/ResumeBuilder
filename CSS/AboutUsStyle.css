@@ -9,3 +9,9 @@
     background: #34495e;
     padding: 60px;
 }
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
