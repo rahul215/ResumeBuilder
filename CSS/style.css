@@ -44,3 +44,14 @@ nav li a:hover{
     background-size: cover;
     background-blend-mode: darken;
 }
+.content{
+}
+.first-content{
+    background-color: black;
+}
+.second-content img{
+    float: right;
+    width: 50%;
+    height: 80%;
+    margin-top: 5%;
+}
