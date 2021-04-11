@@ -62,3 +62,21 @@
     font-size: 22px;
 
 }
+.WhatWeDo{
+    overflow: hidden;
+    text-align: center;
+    background: #091929;
+    padding: 60px;
+}
+.WhatWeDo h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;   
+}
+.WhatWeDo p{
+    text-transform: lowercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 15px;
+}
