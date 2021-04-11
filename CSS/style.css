@@ -12,9 +12,8 @@
 }
 .logo img{
     float: left;
-    width: 50%;
+    width: 80%;
     border: 1px solid white;
-    border-radius: 30px;
 }
 .navbar{
     display: flex;
