@@ -45,13 +45,31 @@ nav li a:hover{
     background-blend-mode: darken;
 }
 .content{
+    background-color: yellow;
 }
-.first-content{
-    background-color: black;
+.content h1{
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 5%;
+    font-size: 220%;
+    @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 }
-.second-content img{
+.first-content img{
     float: right;
     width: 50%;
-    height: 80%;
     margin-top: 5%;
+    background-color: blue;
+}
+.create-btn{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: large;
+    border-color: rgb(255, 94, 0);
+}
+.create-btn button{
+    align-items: center;
 }
