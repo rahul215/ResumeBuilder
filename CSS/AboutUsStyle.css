@@ -4,10 +4,14 @@
     font-family: sans-serif;
 }
 .team-section{
+    /* padding-bottom: 4rem; */
     overflow: hidden;
     text-align: center;
     background: #091929;
     padding: 60px;
+}
+hr {
+    margin-top: 4rem;
 }
 .team-section h1{
     text-transform: uppercase;
@@ -79,4 +83,8 @@
     margin-bottom: 60px;
     color: white;
     font-size: 15px;
+}
+
+.para-whatwedo {
+    text-align: justify;
 }
