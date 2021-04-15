@@ -38,7 +38,7 @@ nav li a{
 }
 nav li a:hover{
     text-decoration: none;
-    color:rgb(102, 173, 255);
+    color:rgb(102, 108, 116);
 }
 .background{
     background-size: cover;
