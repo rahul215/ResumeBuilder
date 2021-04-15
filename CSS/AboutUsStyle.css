@@ -88,3 +88,9 @@ hr {
 .para-whatwedo {
     text-align: justify;
 }
+.ContactUs{
+    overflow: hidden;
+    text-align: center;
+    background: #091929;
+    padding: 60px;
+}
