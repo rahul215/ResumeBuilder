@@ -38,14 +38,19 @@ nav li a{
 }
 nav li a:hover{
     text-decoration: none;
-    color:rgb(102, 173, 255);
+    color:rgb(102, 108, 116);
 }
 .background{
     background-size: cover;
     background-blend-mode: darken;
 }
 .content{
+    height: 100%;
     background-color: yellow;
+}
+.content2 p{
+    margin-left: 10%;
+    padding: 2px 2px;
 }
 .content h1{
     width: 50%;
@@ -58,17 +63,19 @@ nav li a:hover{
     float: right;
     width: 50%;
     margin-top: 5%;
-    background-color: blue;
 }
 .create-btn{
     margin-top: 2%;
     margin-left: 20%;
-    background-color: orange;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: 900;
+    background-color: rgb(255, 136, 0);
+    padding: 20px 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: large;
-    border-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
 }
 .create-btn button{
     align-items: center;
