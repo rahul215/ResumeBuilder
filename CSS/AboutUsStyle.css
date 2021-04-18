@@ -104,9 +104,6 @@ hr {
     font-size: 40px;
 }
 .contact{
-    background-color: #091929;
-}
-.contact{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
