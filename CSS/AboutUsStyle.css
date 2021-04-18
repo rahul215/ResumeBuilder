@@ -88,3 +88,18 @@ hr {
 .para-whatwedo {
     text-align: justify;
 }
+.ContactUs{
+    overflow: hidden;
+    text-align: center;
+    background: #091929;
+    padding: 60px;
+}
+hr {
+    margin-top: 4rem;
+}
+.ContactUs h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}    
