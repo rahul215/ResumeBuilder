@@ -111,6 +111,9 @@ hr {
 #contact .contact-items{
     width: 400px;
 }
+.main{
+    background-color: #091929;
+}
 #contact .contact-item{
     width: 80%;
     padding: 20px;
