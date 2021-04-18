@@ -51,15 +51,15 @@ nav li a img:hover{
 .content{
     height: 100%;
 }
-.content2 p{
-    margin-left: 10%;
-    padding: 2px 2px;
+.content2 h6 img{
+    width: 3%;
 }
 .content2 h1{
     width: 50%;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 5%;
     font-size: 220%;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .first-content img{
