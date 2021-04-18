@@ -24,4 +24,4 @@ function addNewAQField() {
     let aqOb = document.getElementById("aq");
     let aqAddButtonOb = document.getElementById("weAddButton");
     aqOb.insertBefore(newNode, aqAddButtonOb);
-}
+} 
