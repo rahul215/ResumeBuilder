@@ -40,6 +40,10 @@ nav li a:hover{
     text-decoration: none;
     color:rgb(102, 108, 116);
 }
+nav li a img:hover{
+    text-decoration: none;
+    color:rgb(102, 108, 116);
+}
 .background{
     background-size: cover;
     background-blend-mode: darken;
