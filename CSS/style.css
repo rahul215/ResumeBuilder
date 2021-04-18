@@ -55,12 +55,12 @@ nav li a img:hover{
     margin-left: 10%;
     padding: 2px 2px;
 }
-.content h1{
+.content2 h1{
     width: 50%;
     padding-top: 15%;
     padding-left: 5%;
     font-size: 220%;
-    @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .first-content img{
     float: right;
