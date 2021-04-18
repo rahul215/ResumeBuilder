@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif ;
 }
 .logo{
     width: 10%;
@@ -40,13 +39,17 @@ nav li a:hover{
     text-decoration: none;
     color:rgb(102, 108, 116);
 }
+nav li a img:hover{
+    text-decoration: none;
+    color:rgb(102, 108, 116);
+}
 .background{
     background-size: cover;
     background-blend-mode: darken;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .content{
     height: 100%;
-    background-color: yellow;
 }
 .content2 p{
     margin-left: 10%;
