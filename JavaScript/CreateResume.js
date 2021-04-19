@@ -1,5 +1,4 @@
 function addNewWEField() {
-    //console.log("Adding New Field");
 
     let newNode = document.createElement('textarea');
     newNode.classList.add('form-control');
