@@ -40,3 +40,13 @@ function addNewSkField() {
 
     skOb.insertBefore(newNode, skAddButtonOb);
 }
+
+//generating CV
+ function generateCV() {
+     //console.log("generating CV");
+
+     let nameField = document.getElementById("nameField").value;
+     let nameT1 = document.getElementById("nameT1");
+
+     nameT1.innerHTML = nameField;
+ }
