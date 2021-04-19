@@ -8,7 +8,7 @@
     /* padding-bottom: 4rem; */
     overflow: hidden;
     text-align: center;
-    background: #091929;
+    /* background: #091929; */
     padding: 60px;
 }
 hr {
@@ -70,7 +70,7 @@ hr {
 .WhatWeDo{
     overflow: hidden;
     text-align: center;
-    background: #091929;
+    /* background: #091929; */
     padding: 60px;
 }
 .WhatWeDo h1{
@@ -92,7 +92,7 @@ hr {
 .ContactUs{
     overflow: hidden;
     text-align: center;
-    background: #091929;
+    /* background: #091929; */
     padding: 60px;
 }
 hr {
@@ -113,15 +113,15 @@ hr {
     width: 400px;
 }
 .contact-item{
-    width: 100%;
+    float: left;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 10px;
     padding: 30px;
-    margin: 30px;
+    /* margin: 30px; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: column;
     box-shadow: 0px 0px 18px 0 #0000002c;
     transition: .3s ease box-shadow;
@@ -131,7 +131,7 @@ hr {
     box-shadow: 0px 0px 5px 0 #0000002c;
 }
 .icon{
-    width: 70px;
+    width: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
     color: pink;
@@ -148,8 +148,8 @@ hr {
     min-width: 20vh;
 }
 #contact .contact-items {
-    width: 100%;
-    display: flex;
+    width: fit-content; 
+     display: flex; 
     flex-direction: row;
     padding: 20px;
     margin: 0;
