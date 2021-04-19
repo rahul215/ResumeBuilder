@@ -26,3 +26,17 @@ function addNewAQField() {
     aqOb.insertBefore(newNode, aqAddButtonOb);
 
 }
+
+function addNewSkField() {
+
+    let newNode = document.createElement('textarea');
+    newNode.classList.add('form-control');
+    newNode.classList.add('skField');
+    newNode.setAttribute("rows", 3);
+    newNode.setAttribute("placeholder", "Enter Here");
+
+    let skOb = document.getElementById("sk");
+    let skAddButtonOb = document.getElementById("skAddButton");
+
+    skOb.insertBefore(newNode, skAddButtonOb);
+}
