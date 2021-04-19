@@ -3,7 +3,7 @@
 }*/
 
 #cv-template{
-    display: none;
+    /*display: none;*/
 }
 
 .my-img{
@@ -13,5 +13,5 @@
 }
 
 .background{
-    /*background-color: seagreen;*/
+    background-color: seagreen;
 }
