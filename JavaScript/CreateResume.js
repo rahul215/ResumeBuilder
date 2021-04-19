@@ -63,28 +63,32 @@ function addNewSkField() {
      document.getElementById('gitT').innerHTML = document.getElementById("gitField").value;
 
      //Objective
-     document.getElementById('objectiveT').innerHTML = document.getElementById("objectiveField").value;
+     document.getElementById('objectiveT').innerHTML = document.getElementById("ObjectiveField").value;
 
      //we
-     let wes=document.getElementsByClassName('weField');
-     let str=''
+     let wes=document.getElementById('weField').value;
+    //  let str=''
 
-     for(let e of wes)
-     {
-         str= str + '<li> ${e.value} </li>'
-     }
+    //  for(let e of wes)
+    //  {
+    //      console.log(e.value)
+    //      str= str + '<li> ${e.value} </li>'
+    //      console.log(str);
+    //  }
 
-     document.getElementById('weT').innerHTML = str;
+     document.getElementById('weT').innerHTML = wes;
 
      //aq
-     let aqs = document.getElementsByClassName('aqField');
-     let str1=""
+     let aqs = document.getElementById('aqField').value;
+    //  let str1=""
 
-     for(let e of aqs) {
-         str1+='<li> ${e.value} </li>'
-     }
+    //  for(let e of aqs) {
+    //      str1+='<li> ${e.value} </li>'
+    //  }
 
-     document.getElementById('aqT').innerHTML= str1;
+     document.getElementById('aqT').innerHTML= aqs;
+
+     document.getElementById('skT').innerHTML = document.getElementById('skField').value;
 
      document.getElementById('cv-form').style.display='none';
      document.getElementById('cv-template').style.display='block';
