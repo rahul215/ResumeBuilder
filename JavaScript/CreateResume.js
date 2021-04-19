@@ -101,7 +101,9 @@ function addNewSkField() {
      console.log(reader.result);
 
      //set the image to template
-     document.getElementById('imgTemplate').src=reader.result;
+     reader.onloadend = function() {
+         document.getElementById("imgTemplate").src = reader.result;
+     };
 
 
      document.getElementById('cv-form').style.display='none';
