@@ -62,4 +62,36 @@ function addNewSkField() {
      document.getElementById('addressT').innerHTML = document.getElementById("addressField").value;
      document.getElementById('linkedT').innerHTML = document.getElementById("linkedField").value;
      document.getElementById('gitT').innerHTML = document.getElementById("gitField").value;
+
+     //Objective
+     document.getElementById('objectiveT').innerHTML = document.getElementById("objectiveField").value;
+
+     //we
+     let wes=document.getElementsByClassName('weField');
+     let str=''
+
+     for(let e of wes)
+     {
+         str= str + '<li> ${e.value} </li>'
+     }
+
+     document.getElementById('weT').innerHTML = str;
+
+     //aq
+     let aqs = document.getElementsByClassName('aqField');
+     let str1=""
+
+     for(let e of aqs) {
+         str1+='<li> ${e.value} </li>'
+     }
+
+     document.getElementById('aqT').innerHTML= str1;
+
+     document.getElementById('cv-form').style.display='none';
+     document.getElementById('cv-template').style.display='block';
+ }
+
+ //PRINT CV
+ function printCV(){
+     window.print();
  }
