@@ -90,6 +90,20 @@ function addNewSkField() {
 
      document.getElementById('skT').innerHTML = document.getElementById('skField').value;
 
+     //code for setting image
+     let file = document.getElementById('imgField').files[0]
+
+     console.log(file);
+
+     let reader = new FileReader()
+     reader.readAsDataURL(file);
+
+     console.log(reader.result);
+
+     //set the image to template
+     document.getElementById('imgTemplate').src=reader.result;
+
+
      document.getElementById('cv-form').style.display='none';
      document.getElementById('cv-template').style.display='block';
  }
