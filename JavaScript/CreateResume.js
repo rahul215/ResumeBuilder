@@ -49,4 +49,12 @@ function addNewSkField() {
      let nameT1 = document.getElementById("nameT1");
 
      nameT1.innerHTML = nameField;
+
+     //direct
+
+     document.getElementById('nameT2').innerHTML = nameField;
+
+     //contact
+
+     document.getElementById('contactT').innerHTML = document.getElementById("contactField").value;
  }
