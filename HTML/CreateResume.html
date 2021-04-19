@@ -71,7 +71,7 @@
 
                 <div class="form-group mt-2">
                     <label for="">Objective</label>
-                    <textarea type="text" placeholder="Enter Here" class="form-control"></textarea>
+                    <textarea id="ObjectiveField" type="text" placeholder="Enter Here" class="form-control"></textarea>
                 </div>
 
                 <div class="form-group mt-2">
@@ -106,7 +106,7 @@
         </div>
 
         <div class="container text-center mt-3">
-            <button class="btn btn-dark btn-lg">Generate CV</button>
+            <button onclick="generateCV()" class="btn btn-dark btn-lg">Generate CV</button>
         </div>
     </div>
     
@@ -119,19 +119,19 @@
                 <img src="/Images/defaultProfilePicture.jpg" alt="" class="img-fluid my-img">
 
                 <div class="container">
-                    <p>Rahul Saxena</p>
-                    <p>+91-12343545,+91-234235564</p>
-                    <p>12, sector43, jagriti vihar, Meerut</p>
+                    <p id="nameT1">Rahul Saxena</p>
+                    <p id="contactT">+91-12343545,+91-234235564</p>
+                    <p class="addressT">12, sector43, jagriti vihar, Meerut</p>
                     <hr>
 
-                    <p><a href="#1">https://www.linkedin.com/home</a></p>
-                    <p><a href="#2">https://github.com/</a></p>
+                    <p><a id="linkedT" href="#1">https://www.linkedin.com/home</a></p>
+                    <p><a id="gitT" href="#2">https://github.com/</a></p>
                 </div>
             </div>
 
             <div class="col-md-8 py-5">
                 <!--second column-->
-                <h1 class="text-center" style="font-weight: 980">Rahul Saxena</h1>
+                <h1 id="nameT2" class="text-center" style="font-weight: 980">Rahul Saxena</h1>
                 
                 <!--Objective Card-->
                 <div class="card mt-4">
@@ -139,7 +139,7 @@
                         <h3>Objective</h3>
                     </div>
                     <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur animi ut facere minima sit nobis quo at ullam, modi aliquid corporis dicta. Quidem eveniet, nihil consectetur, dolores reprehenderit provident deleniti quo fugit doloribus repellat est adipisci quae et incidunt, doloremque accusantium beatae placeat! Reprehenderit ratione dignissimos exercitationem ipsa hic.</p>
+                        <p id="objectiveT">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur animi ut facere minima sit nobis quo at ullam, modi aliquid corporis dicta. Quidem eveniet, nihil consectetur, dolores reprehenderit provident deleniti quo fugit doloribus repellat est adipisci quae et incidunt, doloremque accusantium beatae placeat! Reprehenderit ratione dignissimos exercitationem ipsa hic.</p>
                     </div>
                 </div>
 
@@ -149,7 +149,7 @@
                         <h3>Work Experience</h3>
                     </div>
                     <div class="card-body">
-                        <ul>
+                        <ul id="weT">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
@@ -164,20 +164,20 @@
                         <h3>Academic Qualification</h3>
                     </div>
                     <div class="card-body">
-                        <ul>
+                        <ul id="aqT">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                         </ul>
                     </div>
                 </div>
-
+                <!--Skills-->
                 <div class="card mt-4">
                     <div class="card-header background">
                         <h3>Skills</h3>
                     </div>
                     <div class="card-body">
-                        <ul>
+                        <ul id="skT">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus.</li>
@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="container mt-3 text-center">
-                    <button class="btn background">
+                    <button onclick="printCV()" class="btn background">
                         Print CV
                     </button>
                 </div>
