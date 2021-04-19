@@ -57,4 +57,9 @@ function addNewSkField() {
      //contact
 
      document.getElementById('contactT').innerHTML = document.getElementById("contactField").value;
+
+     //address
+     document.getElementById('addressT').innerHTML = document.getElementById("addressField").value;
+     document.getElementById('linkedT').innerHTML = document.getElementById("linkedField").value;
+     document.getElementById('gitT').innerHTML = document.getElementById("gitField").value;
  }
